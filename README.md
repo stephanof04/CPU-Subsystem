@@ -40,6 +40,7 @@ Screenshots include:
 ## How to Reproduce
 This project was implemented using [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) with the [SkyWater 130nm PDK](https://github.com/google/skywater-pdk).  
 You must have OpenLane + the PDK installed separately (not included in this repo).
+Only /src + /openlane configs are needed, /reports + /images are artifacts.
 
 To reproduce the flow:
 1. Install OpenLane with Sky130 PDK (see [OpenLane installation guide](https://github.com/The-OpenROAD-Project/OpenLane)).  
