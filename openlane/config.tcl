@@ -11,6 +11,8 @@ set ::env(VERILOG_FILES) [list \
 ]
 
 set ::env(FP_PIN_ORDER_CFG) "$::env(DESIGN_DIR)/pin_order.cfg"
+set ::env(SDC_FILE) "$::env(DESIGN_DIR)/constraints.sdc"
+
 set ::env(PL_SKIP_INITIAL_PLACEMENT) 0
 set ::env(PL_RANDOM_IO_PLACEMENT) 0
 
